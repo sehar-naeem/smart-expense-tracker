@@ -1,0 +1,64 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.mentortech.expensetracker'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.mentortech.expensetracker"
+        minSdk 24
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    signingConfigs {
+        release {
+            storeFile file('../release-key.jks')
+            storePassword 'Tracker2026!'
+            keyAlias 'expense_key'
+            keyPassword 'Tracker2026!'
+        }
+    }
+
+    buildTypes {
+        release {
+            signingConfig signingConfigs.release
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
+
+dependencies {
+    implementation 'androidx.appcompat:appcompat:1.7.0'
+    implementation 'com.google.android.material:material:1.12.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'androidx.recyclerview:recyclerview:1.3.2'
+    implementation 'androidx.cardview:cardview:1.0.0'
+
+    // Room Database
+    implementation 'androidx.room:room-runtime:2.6.1'
+    annotationProcessor 'androidx.room:room-compiler:2.6.1'
+
+    // Google ML Kit Text Recognition (On-Device OCR)
+    implementation 'com.google.android.gms:play-services-mlkit-text-recognition:19.0.0'
+
+    // MPAndroidChart for Spending Breakdown Charts
+    implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
+
+    // WorkManager for Budget Alerts
+    implementation 'androidx.work:work-runtime:2.9.0'
+
+    // Lifecycle / LiveData
+    implementation 'androidx.lifecycle:lifecycle-livedata:2.8.0'
+    implementation 'androidx.lifecycle:lifecycle-viewmodel:2.8.0'
+}

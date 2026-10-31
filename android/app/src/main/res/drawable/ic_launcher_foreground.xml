@@ -1,0 +1,40 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Paper Receipt Silhouette -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M36,26h36a4,4 0,0 1,4 4v48l-6,-3 -6,3 -6,-3 -6,3 -6,-3 -6,3 -6,-3V30a4,4 0,0 1,4 -4Z" />
+
+    <!-- Receipt Header Bar (Indigo) -->
+    <path
+        android:fillColor="#4338CA"
+        android:pathData="M42,36h24a2,2 0,0 1,0 4H42a2,2 0,0 1,0 -4Z" />
+
+    <!-- Receipt Text Lines -->
+    <path
+        android:fillColor="#94A3B8"
+        android:pathData="M42,45h16a2,2 0,0 1,0 4H42a2,2 0,0 1,0 -4Z" />
+    <path
+        android:fillColor="#94A3B8"
+        android:pathData="M42,53h18a2,2 0,0 1,0 4H42a2,2 0,0 1,0 -4Z" />
+
+    <!-- Total Amount Indicator (Emerald Green) -->
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M42,61h24a2.5,2.5 0,0 1,0 5H42a2.5,2.5 0,0 1,0 -5Z" />
+
+    <!-- AI Sparkle 1 (Gold - Top Right) -->
+    <path
+        android:fillColor="#FBBF24"
+        android:pathData="M78,22l2.5,6 6,2.5 -6,2.5 -2.5,6 -2.5,-6 -6,-2.5 6,-2.5Z" />
+
+    <!-- AI Sparkle 2 (Cyan - Left) -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M24,44l2,4.5 4.5,2 -4.5,2 -2,4.5 -2,-4.5 -4.5,-2 4.5,-2Z" />
+
+</vector>

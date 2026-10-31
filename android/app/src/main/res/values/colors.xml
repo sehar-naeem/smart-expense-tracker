@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Modern Indigo/Violet Primary Palette -->
+    <color name="primary">#4338CA</color>
+    <color name="primary_dark">#312E81</color>
+    <color name="primary_light">#6366F1</color>
+    <color name="gradient_start">#4338CA</color>
+    <color name="gradient_end">#6366F1</color>
+
+    <color name="accent">#06B6D4</color>
+    <color name="background">#F8FAFC</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="surface_variant">#F1F5F9</color>
+    <color name="text_primary">#0F172A</color>
+    <color name="text_secondary">#64748B</color>
+    <color name="divider">#E2E8F0</color>
+
+    <!-- Curated Category Badge Colors -->
+    <color name="category_food">#F43F5E</color>      <!-- Vibrant Rose -->
+    <color name="category_travel">#3B82F6</color>    <!-- Electric Blue -->
+    <color name="category_bills">#F59E0B</color>     <!-- Amber Gold -->
+    <color name="category_shopping">#10B981</color>  <!-- Emerald Green -->
+
+    <!-- Budget Status Indicators -->
+    <color name="budget_safe">#10B981</color>
+    <color name="budget_warning">#F59E0B</color>
+    <color name="budget_exceeded">#EF4444</color>
+</resources>

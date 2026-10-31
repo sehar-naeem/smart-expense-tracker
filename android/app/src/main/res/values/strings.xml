@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Smart Expense Tracker</string>
+    <string name="scan_receipt">Scan Receipt</string>
+    <string name="analytics">Analytics</string>
+    <string name="recent_expenses">Recent Expenses</string>
+    <string name="monthly_spending">Monthly Spending</string>
+    <string name="add_manual">Add Manual</string>
+    <string name="category_breakdown">Spending by Category</string>
+</resources>

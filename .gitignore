@@ -1,0 +1,46 @@
+# Built application binaries
+*.apk
+*.aab
+*.ap_
+
+# Gradle & Build caches
+.gradle/
+build/
+*/build/
+app/build/
+android/build/
+android/app/build/
+
+# Local configuration & SDK paths
+local.properties
+android/local.properties
+
+# Android Studio & IDE files
+.idea/
+*/.idea/
+.vscode/
+*.iml
+android/*.iml
+
+# Python temporary caches
+__pycache__/
+*/__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# OS and Temporary files
+.DS_Store
+Thumbs.db
+*.log
+scratch/
+screen.png
+screen_main.png
+emulator_screen.png
+
+# Signing keys
+*.jks
+*.keystore
+

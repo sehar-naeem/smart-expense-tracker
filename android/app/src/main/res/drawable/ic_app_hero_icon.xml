@@ -1,0 +1,45 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+
+    <!-- Circle Glowing Background -->
+    <path
+        android:fillColor="#33FFFFFF"
+        android:pathData="M48,8A40,40 0,1 0,88 48,40.05 40.05,0 0,0 48,8Z" />
+
+    <!-- Receipt Base Sheet -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M32,24h32a4,4 0,0 1,4 4v44l-6,-3 -6,3 -6,-3 -6,3 -6,-3 -6,3V28a4,4 0,0 1,4 -4Z" />
+
+    <!-- Receipt Header Line -->
+    <path
+        android:fillColor="#4338CA"
+        android:pathData="M38,34h20a2,2 0,0 1,0 4H38a2,2 0,0 1,0 -4Z" />
+
+    <!-- Receipt Text Lines -->
+    <path
+        android:fillColor="#6366F1"
+        android:pathData="M38,42h14a2,2 0,0 1,0 4H38a2,2 0,0 1,0 -4Z" />
+    <path
+        android:fillColor="#6366F1"
+        android:pathData="M38,50h16a2,2 0,0 1,0 4H38a2,2 0,0 1,0 -4Z" />
+
+    <!-- AI Sparkle 1 (Top Right) -->
+    <path
+        android:fillColor="#FBBF24"
+        android:pathData="M74,18l2,5 5,2 -5,2 -2,5 -2,-5 -5,-2 5,-2Z" />
+
+    <!-- AI Sparkle 2 (Left) -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M20,38l1.5,3.5 3.5,1.5 -3.5,1.5 -1.5,3.5 -1.5,-3.5 -3.5,-1.5 3.5,-1.5Z" />
+
+    <!-- Green Total Indicator Bar -->
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M38,58h20a2,2 0,0 1,0 4H38a2,2 0,0 1,0 -4Z" />
+
+</vector>
